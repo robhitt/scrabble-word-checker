@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <meta name="author" content="Rob Hitt">
+  <meta name="description" content="Scrabble word selector">
+  <meta name="keywords" content="Scrabble">
+  <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
+  <link rel="stylesheet" href="css/master.css" type="text/css">
+
+</head>
+
+<body>
+  <div class="outer-container">
+    <!-- <p class="an-image">
+      <img src="./images/scrabble.jpg" width="100%">
+    </p> -->
+    <div class="inner-container">
+
+      <div class="header">
+        <p class="large-font">Welcome to Scabble!</p>
+        <p class="small-font">Your tiles are the letters below</p>
+
+      </div>
+
+      <div>
+        <span class="box" id="tile1"></span>
+        <span class="box" id="tile2"></span>
+        <span class="box" id="tile3"></span>
+        <span class="box" id="tile4"></span>
+        <span class="box" id="tile5"></span>
+        <span class="box" id="tile6"></span>
+        <span class="box" id="tile7"></span>
+        <span class="box" id="tile8"></span>
+      </div>
+
+
+      <div class="word">
+        Please enter a word below to see if it is valid:
+      </div>
+
+      <div class="form-field">
+        <form id="form1" action="index.html">
+          <input type="text" name="userWord" value="">
+
+          <p><input type="submit" name="submit" value="submit"></p>
+        </form>
+      </div>
+
+      <p id=result></p>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
